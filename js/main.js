@@ -9,7 +9,7 @@ console.log('result ===', result);
 
 // ========================
 
-function isEligible(num) {
+export function isEligible(num) {
   if (num > 18) {
     console.log('Welcome');
   } else {
@@ -18,3 +18,15 @@ function isEligible(num) {
 }
 
 isEligible(14);
+
+// =========================
+
+export function divisibleByTwo(num) {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(divisibleByTwo(9));

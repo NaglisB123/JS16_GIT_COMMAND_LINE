@@ -1,3 +1,3 @@
-import {sum} from './js/main.js';
-
-const result = sum(10, 20, 40);
+import { sum } from './js/main.js';
+import { isEligible } from './js/main.js';
+import { divisibleByTwo } from './js/main.js';
