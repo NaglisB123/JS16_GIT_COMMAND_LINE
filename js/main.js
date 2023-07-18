@@ -21,7 +21,7 @@ isEligible(14);
 
 // =========================
 
-export function divisibleByTwo(num) {
+export function isDivisibleByTwo(num) {
   if (num % 2 === 0) {
     return true;
   } else {
@@ -29,4 +29,4 @@ export function divisibleByTwo(num) {
   }
 }
 
-console.log(divisibleByTwo(9));
+console.log(isDivisibleByTwo(8));
