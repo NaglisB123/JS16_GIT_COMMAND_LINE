@@ -1,6 +1,8 @@
-'use strict';
 console.log('main.js file was loaded');
 
-function sum (a, b, c) {
-    return a + b + c;
+export function sum(a, b, c) {
+  return a + b / c;
 }
+
+const result = sum(10, 20, 40);
+console.log('result ===', result);
