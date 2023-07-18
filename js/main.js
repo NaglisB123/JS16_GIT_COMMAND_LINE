@@ -28,5 +28,4 @@ export function isDivisibleByTwo(num) {
     return false;
   }
 }
-
 console.log(isDivisibleByTwo(8));
